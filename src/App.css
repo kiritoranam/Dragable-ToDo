@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  width: calc(100% - 240px);
+  margin-left: 240px;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    width: calc(100% - 0);
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.iconCss {
+  background-color: yellow;
+  border-radius: 50%;
+  font-size: 2rem !important;
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
+
+.iconfooter {
+  position: fixed;
+  left: 0;
+  bottom: 3rem;
+  z-index: 1000;
+  width: 100%;
+  width: calc(100% - 10rem);
+  /* margin-left: 11rem; */
+  text-align: end;
+}
+
+/* src/App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-board {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #999;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.game-info {
+  padding: 20px;
+  min-width: 200px;
+  background-color: #f0f0f0;
+}
+
+.game-info > div {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.game-info ol {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.game-info li {
+  margin-bottom: 5px;
+}
+
+.game-info button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.game-info button:hover {
+  color: #0056b3;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* added a light gray background */
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.column {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added a subtle box shadow */
+}
+
+.column h2 {
+  margin-top: 0;
+  font-weight: bold; /* made the column title bold */
+}
+
+.column h2 .heading {
+  color: lightcoral;
+}
+
+.column h2 .count {
+  color: darkgray;
+  margin-left: 10px;
+}
+
+
+.list-parent {
+  padding: 0;
+}
+
+.item {
+  list-style-type: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-block: 5px;
+  cursor: move; /* a/* added a move cursor to indicate draggability */
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.new-item-input-form {
+  margin-top: 5rem;
+}
+
+.new-item-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box; /* added box-sizing to prevent overflow */
+}
+
+.add-item-btn:hover {
+  background-color: #3e8e41;
+}
+
+
+.add-column-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s; /* added a transition for the button hover effect */
+  position: absolute;
+  right: 20px;
+}
+
+.add-column-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* added animation for dragging and dropping */
+.dragging {
+  opacity: 0.3;
+  transform: scale(0);
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.dropping {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}

@@ -1,0 +1,38 @@
+Description: A dynamic platform that seamlessly integrates with four major banks to provide real-time visibility into financial transactions. Designed to enhance transparency and streamline the tracking of transactions, our portal stands out as a reliable partner for both banks and users alike.
+I have developed responsive and user-friendly
+Successfully integrated RESTful APIs to fetch and display dynamic content, improving the overall functionality of the application.
+Technologies Used: HTML, CSS, React JS, Redux for state management, Axios.
+
+
+
+Description: Introducing Customer Service Center (CSC), a web application designed to revolutionize the way you transfer money securely and effortlessly. Our platform seamlessly integrates Aadhar and biometric authentication systems to provide a swift and secure means of transferring funds from your bank account to specific individuals.
+Responsibilities:
+Developed responsive and user-friendly interfaces.
+Integrated Aadhaar and biometric authentication features in this project, enhancing the security and user authentication processes.
+Collaborated with cross-functional teams to integrate biometric authentication APIs, ensuring seamless user verification.
+Designed and implemented user interfaces for Aadhaar authentication workflows, optimizing the user experience and ensuring compliance with security standards.
+Technologies Used: HTML, CSS, React JS, Redux for state management, Axios,
+
+Description: Next360 is a multinational cellular operator. Next360 offers very competitive mobile airtime and data packages in domestic markets, giving customers more choice and superior connectivity.
+Responsibilities:
+Developed a comprehensive SIM management system enabling administrators to activate new SIM cards, perform airtime recharges, and associate plans with SIMs.
+Implemented a commission tracking system that calculates and records commissions for each transaction, providing administrators with transparent insights into financial performance.
+Designed and integrated a secure wallet system, allowing administrators to manage and monitor their balances efficiently.
+Developed a non-seamless payment gateways using Pay Fast for South African Users and CCAvenue for Indian Users integration for wallet top-ups, enhancing user experience and ensuring a reliable financial transaction process.
+Technologies Used: HTML, CSS, React JS, Redux for state management, Axios, Pay Fast, CCAvenue.
+
+----------------------------
+
+Description: A dynamic web platform that seamlessly integrates with four major banks to provide real-time visibility into financial transactions. Designed to enhance transparency and streamline the tracking of transactions,
+our portal stands out as a reliable partner for both banks and users alike.
+Have developed responsive user-friendly interface and integrated RESTful APIs to fetch and display dynamic content, improving the overall functionality of the application.
+Technologies Used: HTML, CSS, React JS, Redux for state management, Axios.
+
+Description: Developed a comprehensive SIM management system enabling administrators to activate new SIM cards, perform airtime recharges, and associate plans with SIMs. 
+Integrated a non-seamless payment gateways for wallet top-ups, allowing users to manage and monitor their balances efficiently resulted in enhancing user experience and ensuring a reliable financial transaction process.
+Technologies Used: HTML, CSS, React JS, Redux for state management, Axios, Pay Fast, CCAvenue.
+
+Description: A web application designed to revolutionize the way you transfer money securely and effortlessly. 
+Our platform seamlessly integrates Aadhar and biometric authentication systems to provide a swift and secure means of transferring funds from your bank account to specific individuals.
+Technologies Used: HTML, CSS, React JS, Redux for state management, Axios, CCAvenue.
+
